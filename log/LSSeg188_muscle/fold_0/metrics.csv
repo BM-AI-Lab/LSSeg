@@ -1,0 +1,2 @@
+clDice,dice,iou,mae,mse,ods,ois,psnr
+"tensor(1., device='cuda:0')","tensor(0.7014, device='cuda:0')","tensor(0.5402, device='cuda:0')","tensor(0.0221, device='cuda:0')","tensor(0.0110, device='cuda:0')","tensor(0.8130, device='cuda:0')","tensor(0.8029, device='cuda:0')","tensor(19.5689, device='cuda:0')"
