@@ -1,0 +1,10 @@
+batch_size: 8
+data_pair_file: data/tubulin/pairs.csv
+drop_last: true
+image_mode: L
+in_channels: [1, 8, 8]
+lr: 0.01
+lr_decay_epoch: 10
+num_epochs: 100
+resize: [512, 512]
+weight_decay: 0.00012

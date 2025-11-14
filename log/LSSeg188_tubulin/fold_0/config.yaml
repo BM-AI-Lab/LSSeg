@@ -1,0 +1,17 @@
+batch_size: 4
+data_pair_file: data/tubulin/pairs.csv
+data_root: data/tubulin
+drop_last: true
+image_mode: L
+in_channels:
+- 1
+- 8
+- 8
+lr: 0.01
+lr_decay_epoch: 10
+num_epochs: 100
+resize:
+- 512
+- 512
+save_path: log/LSSeg188_tubulin/fold_0
+weight_decay: 0.00012
